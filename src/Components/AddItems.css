@@ -1,0 +1,58 @@
+/* AddItems.css */
+.addForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .addForm label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .addForm input[type="text"] {
+    width: 300px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .addForm input[type="text"]:focus {
+    border-color: #28a745; /* Green color for focus */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  }
+  
+  .addForm input[type="text"]::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .addForm button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .addForm button:hover {
+    background-color: #218838;
+  }
+  
+  .addForm button:active {
+    transform: scale(0.95);
+  }
+  
+  .addForm button svg {
+    vertical-align: middle;
+    font-size: 16px;
+  }
+  

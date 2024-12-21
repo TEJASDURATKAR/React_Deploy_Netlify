@@ -1,0 +1,50 @@
+.Nav {
+    display: flex;
+    justify-content: space-between; /* Space between search form and nav links */
+    align-items: center; /* Center items vertically */
+    background-color: #282c34; /* Dark background */
+    padding: 0.5rem 1rem; /* Padding around the navbar */
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  }
+  
+  .searchForm {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchForm label {
+    margin-right: 0.5rem; /* Space between label and input */
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .searchForm input {
+    padding: 0.3rem 0.5rem; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem;
+  }
+  
+  ul {
+    list-style: none; /* Remove default bullet points */
+    display: flex;
+    gap: 1rem; /* Space between list items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1rem;
+  }
+  
+  ul li a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  ul li a:hover {
+    color: #61dafb; /* Highlight color on hover */
+  }
+  

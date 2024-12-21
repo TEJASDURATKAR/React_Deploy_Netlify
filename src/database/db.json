@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "bbbbb",
+      "body": "sdsfsfsdf",
+      "datetime": "12/21/2024, 3:33:35 PM"
+    },
+    {
+      "id": 2,
+      "title": "tejas2",
+      "body": "sdfssfdsfs",
+      "datetime": "12/21/2024, 3:33:42 PM"
+    },
+    {
+      "id": 3,
+      "title": "bjjbjbjb",
+      "body": "xcxvxcvvcv",
+      "datetime": "12/21/2024, 3:40:30 PM"
+    },
+    {
+      "id": 4,
+      "title": "asdadssdsdf",
+      "body": "safsfsfsdf",
+      "datetime": "12/21/2024, 4:00:58 PM"
+    },
+    {
+      "id": 5,
+      "title": "ssff",
+      "body": "sfsfsf",
+      "datetime": "12/21/2024, 4:51:33 PM"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+/* Styles for Input Component */
+
+/* Form container styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  /* Input field styling */
+  input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 350px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Styles for Square Component */
+  
+  /* Square styling */
+  .square {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Square text styling */
+  .square p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Optional styling for input placeholder */
+  input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  /* Body Styling to Center Components */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+  }
+  

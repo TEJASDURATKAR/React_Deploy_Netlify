@@ -1,0 +1,35 @@
+/* SearchCom.css */
+.searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .searchForm label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .searchForm input[type="text"] {
+    width: 250px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .searchForm input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .searchForm input[type="text"]::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  

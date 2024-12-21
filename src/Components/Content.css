@@ -1,0 +1,63 @@
+/* Content.css */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .item input {
+    margin-right: 10px;
+  }
+  
+  .item label {
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  .item label.checked {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .item svg {
+    color: #e74c3c;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .item svg:hover {
+    transform: scale(1.2);
+  }
+  
+  .empty-message {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  

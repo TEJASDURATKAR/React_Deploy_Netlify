@@ -1,0 +1,24 @@
+/* General styles for body and root elements */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure full height for the page */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure the main content takes up available space */
+.App {
+    flex: 1; /* Grow to fill available space */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 1rem 0; /* Padding for the footer */
+    margin-top: auto; /* Push the footer to the bottom */
+}
